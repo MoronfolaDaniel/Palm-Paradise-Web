@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+    
+}
+body {
+    background-image: url('Img/Backgrund\ 1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev{
+    display:block;
+}
+.carousel-inner{
+    overflow: initial;
+}
+
+.view{
+    .col .imgBox {
+        width: 100%;
+        height: 100vh;
+        background-image: url('Img/Backgrund\ 1.jpg');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        padding-right: 50px;
+        justify-content: flex-end;
+        margin-top: 20px; /* Adjust the value as needed to move the .imgBox higher */
+    }
+    
+
+}  
+
+.navbar{
+    width: 95%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 170px;
+    cursor: pointer;
+
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li nav-item dropdown{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #c3ee56;
+    text-transform: uppercase;
+
+}
+.navbar ul li  ::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #c3ee56;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+
+.navbar ul li   :hover::after{
+    width: 100%;
+}
+
+.carousel-item p{
+    color: oldlace;
+}
+.quote{
+    width: 400px;
+    align-items: center;
+    margin-top: -40px;
+}
+.content{
+    position: relative;
+    width: 100%;
+    color: #c3ee56;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 50px;
+  
+}
+.content .textBox
+{
+  position: relative;
+  max-width: 600px;
+  
+}
+.content .textBox h2{
+    color:#c3ee56;
+    font-size: 2.7em;
+    line-height: 1.2em;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.content .textbox p {
+  color: #fff;
+
+} 
+.content .textBox h2 span
+{ 
+font-size: 1.5em;
+}
+
+ 
+button{
+    position: relative;
+    width: 200px;
+    padding: 15px 0;
+    margin: 20px 10px;
+    border: 2px solid;
+    border-radius: 100px;
+    font-weight: bold;
+    font-size: 15px;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+
+}
+
+.col{
+
+    background: transparent;
+    text-align: center;
+    width: 100%;
+    padding: 150px 0;
+
+}
+.col .imgBox {
+    width: 600px;
+    max-width: 100%;
+    display: flex;
+    padding-right: 50px;
+    justify-content: flex-end;
+    margin-top: -200px
+}
+.col .imgBox img {
+    max-width: 340px;
+}
+.sci
+{
+position: absolute;
+top:50%;
+right: 30px;
+transform: translateY(-50%);
+display: flex;
+justify-content: center;
+align-items: left;
+flex-direction: column;
+}
+.sci li a
+{
+display: inline-block;
+filter: invert(1);
+margin: 5px 0;
+transform: scale(0.6);
+
+}

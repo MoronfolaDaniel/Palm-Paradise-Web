@@ -1,0 +1,22 @@
+.container-fluid{
+
+    background-color:white;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+
+}
+
+.row{
+    background-color:white;
+    height: 45px;
+
+}
+
+[class*= "col-"]{
+    background-color: red;
+    height: 40px;
+    border: 2px solid chartreuse;
+
+
+}
